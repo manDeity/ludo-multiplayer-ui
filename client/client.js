@@ -1,4 +1,4 @@
-const socket = io("https://YOUR_RENDER_SERVER");
+const socket = io("https://ludo-multiplayer-ui.onrender.com/");
 let playerColor, roomId, turnOrder = [], yourTurn = false;
 const canvas = document.getElementById("board");
 const ctx = canvas.getContext("2d");
